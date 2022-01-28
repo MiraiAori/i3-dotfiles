@@ -26,11 +26,12 @@ Simple i3 config
 
 ## Screenshots
 
-![]("https://i.ibb.co/ZKv6VfH/2022-01-28-01-41.png")
-![]("https://i.ibb.co/2vJTb4P/2022-01-28-01-41-1.png")
-![]("https://i.ibb.co/tYmMvYT/2022-01-28-01-41-2.png")
+![](https://i.ibb.co/ZKv6VfH/2022-01-28-01-41.png)
+![](https://i.ibb.co/2vJTb4P/2022-01-28-01-41-1.png)
+![](https://i.ibb.co/tYmMvYT/2022-01-28-01-41-2.png)
 
 ## Credits
 
 [@nrudesu](https://github.com/nrudesu) | for helping
+
 [@ilham25](https://github.com/ilham25) | for helping
