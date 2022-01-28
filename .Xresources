@@ -1,0 +1,74 @@
+!! URxvt
+URxvt.transparent: false
+URxvt.shading: 15
+URxvt.buffered: true
+URxvt.blurRadius: 15
+URxvt.cursorBlink: true
+URxvt.underlineColor: yellow
+URxvt.depth: 32
+URxvt.internalBorder: 24
+URxvt.scrollBar: false
+URxvt.loginShell: true
+Urxvt.secondaryScroll:  true    # Enable Shift-PageUp/Down in screen
+URxvt.saveLines: 5000
+URxvt.termName: rxvt-unicode
+URxvt.perl-ext-common: default,matcher
+URxvt.urlLauncher: firefox
+URxvt.matcher.button: 1
+
+!! URxvt Appearance
+URxvt.font: xft:Koruri:style=Regular:size=8
+URxvt.boldFont: xft:Koruri:style=Bold:size=8
+URxvt.semiBoldFont: xft:Koruri:style=Semibold:size=8
+URxvt.extraBoldFont: xft:Koruri:style=Extrabold:size=8
+
+!! Keybind Copy Paste 
+URxvt.keysym.Control-Meta-c: builtin-string:
+URxvt.keysym.Control-Meta-v: builtin-string:
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+
+!! Enable arrow
+URxvt.keysym.Control-Up:     \033[1;5A
+URxvt.keysym.Control-Down:   \033[1;5B
+URxvt.keysym.Control-Left:   \033[1;5D
+URxvt.keysym.Control-Right:  \033[1;5C
+
+! special
+*.foreground:   #cecece
+*.background:   #0b0b0b
+*.cursorColor:  #cecece
+
+! black
+*.color0:       #1a1b1d
+*.color8:       #292b2e
+
+! red
+*.color1:       #e42525
+*.color9:       #be3535
+
+! green
+*.color2:       #95d727
+*.color10:      #87b71c
+
+! yellow
+*.color3:       #f09233
+*.color11:      #f6bd4e
+
+! blue
+*.color4:       #3178ee
+*.color12:      #478bc5
+
+! magenta
+*.color5:       #a33cea
+*.color13:      #aa71bb
+
+! cyan
+*.color6:       #2ee8d1
+*.color14:      #3fc6b4
+
+! white
+*.color7:       #5d6874
+*.color15:      #d9dedb
